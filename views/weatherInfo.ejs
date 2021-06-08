@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title style="text-transform: capitalize"><%= city %></title>
+    <style media="screen">
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background: linear-gradient(to bottom, #b7eaff 0%,#94dfff 100%);;
+      background-repeat: no-repeat;
+      min-height: 700px;
+    }
+    .button {
+      text-align: center;
+      margin: auto;
+      margin-top: 100px;
+    }
+    </style>
+  </head>
+  <body>
+    <h2>Temperature in <%= city %> is <%= temp %>°C</h1>
+    <h3 style="text-transform: capitalize">It is currently <%= description %></h1>
+    <!-- <p class="mt-5 mb-3 text-muted" style="text-align: center">&copy; 2021 Sarvesh Roshan</p> -->
+    <div class="button">
+        <a class="btn btn-warning" href="/">Go back</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+</html>
